@@ -1,7 +1,13 @@
 header, .blog:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
-
+html { 
+  background: url(/assets/mvcbg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .no-button {
   background: none;
   border: none;
