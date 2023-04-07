@@ -14,6 +14,9 @@
   To install the dependencies needed, open the console and run:
   npm i
   ## Usage:
+
+  https://mvc-app.herokuapp.com/
+
   If you are just visiting the site, you must log in or create an account to be able to post on the blog or to add a comment. If you are running it from the command prompt, you must npm run seed, then npm start, and then visit localhost:3001/
   
   ```md
