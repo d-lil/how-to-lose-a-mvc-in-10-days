@@ -1,9 +1,7 @@
-<!-- Loop over each object in the blogs array -->
 {{#each blogs as |blog| }}
-<div class="row mb-4 blog">
+<div class="row mb-4 blog" style="background: rgba(151, 214, 214, 0.6)">
   <div class="col-md-5">
     <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
       <a href="/blog/{{blog.id}}">{{blog.title}}</a>
     </h2>
     <p>

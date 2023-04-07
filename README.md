@@ -1,7 +1,7 @@
 # how-to-lose-a-mvc-in-10-days
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  
+
   A classic romantic comedy blog for some tech bologna, starring you and the mvc you accidentally fall in love with.
   ## Table of Contents:
   * [Installation](#installation)
@@ -14,7 +14,43 @@
   To install the dependencies needed, open the console and run:
   npm i
   ## Usage:
-  If you are just visiting the site, you must log in or create an account to be able to post on the blog or to add a comment. If you are running it from the command prompt, you must npm run seed, then npm start, and then visit localhost:3001
+  If you are just visiting the site, you must log in or create an account to be able to post on the blog or to add a comment. If you are running it from the command prompt, you must npm run seed, then npm start, and then visit localhost:3001/
+  
+  ```md
+  Homepage view
+  ```
+
+  ![alt text](./public/assets/ssmvc.png)
+  
+  ```md
+  Login/Signup
+  ```
+  ![alt text](./public/assets/ssmvc1.png)
+  
+  ```md
+  Dashboard view, also where you can post a new blog post
+  ```
+
+  ![alt text](./public/assets/ssmvc2.png)
+  
+  ```md
+  Blog post is added to current list of blog posts from that user
+  ```
+
+  ![alt text](./public/assets/ssmvc3.png)
+  
+  ```md
+  Blog is also now added to home
+  ```
+
+  ![alt text](./public/assets/ssmvc4.png)
+  
+  ```md
+  This would be where you could ideally comment on the blog post (you can't, I didn't get it working in time)
+  ```
+
+  ![alt text](./public/assets/ssmvc5.png)
+  
   ## License:
   The MIT License (MIT)
 
